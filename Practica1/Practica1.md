@@ -2,7 +2,7 @@ Preguntas:
 
 1. ¿Cuáles son las principales diferencias entre Haskell y Rust?
 
-segun Jay Zelenskyi del cual ya no pude encontrar mas infotmacion asi que tomo su iinformacion con pinzas, nos dice entre tanto lenguaje tecnico que apenas comprendi y con lo que me quedo para hacer esta investigacion son los sigueinetes tres puntos:
+Según Jay Zelenskyi, del cual ya no pude encontrar más información, así que tomo su información con pinzas, nos dice, entre tanto lenguaje técnico que apenas comprendí, y con lo que me quedo para hacer esta investigación, los siguientes tres puntos:
 
 Enfoque y control:
 
@@ -14,28 +14,38 @@ Haskell delega la limpieza de la memoria a un recolector de basura (garbage coll
 
 Evaluación de datos:
 
-Haskell usa evaluación perezosa (lazy evaluation), calculando las expresiones solo cuando son estrictamente necesarias. Rust evalúa de forma imprevista/inmediata (eager evaluation), ejecutando las operaciones al instante (Zelenskyi, 2023).
+Haskell usa evaluación perezosa (lazy evaluation), calculando las expresiones solo cuando son estrictamente necesarias. Rust evalúa de forma inmediata (eager evaluation), ejecutando las operaciones al instante (Zelenskyi, 2023).
 
 2. ¿Por qué Haskell no ha alcanzado una adopción significativa en la industria del software?
 
-Como tal no encontre una respuesta concreta a esta pregunta, al menos no en paginas formales debido que lo principal que encontraba era en Reddit o otros fotos de internet donde principalmente son opiniones entonces me quede con Applenews aunque me estrese con el formato tan sucio que tiene, lleno de grano a lo que dice la pagina que esta algo desactualizada  pues estas notas son de 2018 creoque puede servir pues no encontre otra informacion formal de mi agrado.
+Como tal, no encontré una respuesta concreta a esta pregunta, al menos no en páginas formales, debido a que lo principal que encontraba era en Reddit u otros foros de internet, donde principalmente son opiniones. Entonces, me quedé con Apple News, aunque me estresé con el formato tan sucio que tiene, lleno de grano. A lo que dice la página, que está algo desactualizada, pues estas notas son de 2018, creo que puede servir, ya que no encontré otra información formal de mi agrado.
 
-Diferencia con las necesidades comunes: La mayoría del software comercial se basa en modificar datos continuamente e interactuar con el usuario. Haskell promueve la inmutabilidad (datos que no cambian) y la pureza, lo cual resulta menos intuitivo y más complejo para la mayoría de los desarrollos cotidianos (Jeske, 2018).
+Diferencia con las necesidades comunes:
 
-Falta de polimorfismo dinámico directo: Patrones de diseño esenciales para construir interfaces de usuario o marcos de trabajo masivos son más difíciles de estructurar en Haskell comparado con otros lenguajes populares (Jeske, 2018).
+La mayoría del software comercial se basa en modificar datos continuamente e interactuar con el usuario. Haskell promueve la inmutabilidad (datos que no cambian) y la pureza, lo cual resulta menos intuitivo y más complejo para la mayoría de los desarrollos cotidianos (Jeske, 2018).
 
-Compatibilidad e integración: Generar bibliotecas ejecutables de forma compartida y mantener compatibilidad binaria entre actualizaciones (late-binding) es un reto técnico en Haskell, lo que dificulta su adopción en grandes entornos industriales (Jeske, 2018).
+Falta de polimorfismo dinámico directo:
+
+Patrones de diseño esenciales para construir interfaces de usuario o marcos de trabajo masivos son más difíciles de estructurar en Haskell comparado con otros lenguajes populares (Jeske, 2018).
+
+Compatibilidad e integración:
+
+Generar bibliotecas ejecutables de forma compartida y mantener compatibilidad binaria entre actualizaciones (late-binding) es un reto técnico en Haskell, lo que dificulta su adopción en grandes entornos industriales (Jeske, 2018).
 
 3. Si tuvieras que explicarle a una persona que no es de CC la función que cumple Git frente a la de GitHub, ¿cómo se lo explicarías?
 
-Me tomare la libertad creativa de no citar aqui pues me gustaria explicarlo segun lo que hemos visto con Leo y con Irvin:
+Me tomaré la libertad creativa de no citar aquí, pues me gustaría explicarlo según lo que hemos visto con Leo y con Irvin:
 
-Git: Aqui es donde puedes guardar las versionbes de tu codigo desde el inicio hasta el final, permitiendo que puedas tener copias de seguridad y observar tu progreso, tambien 3ncuentro utilidad en git para rescatar versiones viejas con buenas funciones y implementarlas en versiones nuevas de menera mas facil.
+Git:
 
-GitHub: Es como un Google Drive, desde aqui te permiten trabjar en casi cualquier despositivo conectado a internet, lo que termite trabajar aun estando en otro dispositivos.
+Aquí es donde puedes guardar las versiones de tu código desde el inicio hasta el final, permitiendo que puedas tener copias de seguridad y observar tu progreso. También encuentro utilidad en Git para rescatar versiones viejas con buenas funciones e implementarlas en versiones nuevas de manera más fácil.
 
+GitHub:
 
+Es como un Google Drive. Desde aquí te permiten trabajar en casi cualquier dispositivo conectado a internet, lo que permite trabajar aun estando en otro dispositivo.
+
+Referencias:
 
 Peresadin, I. (2019, 26 de julio). Haskell: A functional love story. Serokell. https://serokell.io/blog/haskell-love-story
 
-Zelenskyi, J. (2023, 14 de febrero). Rust vs. Haskell. Serokell. https://serokell.io/blog/rust-vs-haskell
+Zelenskyi, J. (2023, 14 de febrero). Rust vs. Haskell. Serokell. https://serokell.io/blog/rust-vs-haskel
