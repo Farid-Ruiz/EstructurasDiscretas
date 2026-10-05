@@ -50,3 +50,8 @@ hipotenusa base h = sqrt (base * base + h *h)
 
 pendiente :: (Double, Double) -> (Double, Double) -> Double
 pendiente (x1,y1) (x2,y2) = (y2 - y1)  / (x2 - x1)
+
+--10. fua...Distnacia_entre_dos_puntos
+
+dpuntos :: (Double, Double) -> (Double, Double) ->Double
+dpuntos (x1,y1) (x2,y2) = sqrt ((x2 - x1)*(x2-x1)+(y2-y1)*(y2-y1))
