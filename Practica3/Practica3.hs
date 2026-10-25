@@ -73,3 +73,18 @@ algunoDivide n d
 
 primos :: [Int] -> [Int]
 primos lista = [x | x <- lista, esPrimo x]
+
+-- Calcula el maximo comun divisor de dos enteros positivos.
+mcd :: Int -> Int -> Int
+mcd a 0 = a
+mcd a b = mcd b (a `mod` b)
+
+-- Determina si dos enteros son coprimos.
+
+sonCoprimos :: Int -> Int -> Bool
+sonCoprimos a b = mcd a b == 1
+
+-- Devuelve los enteros positivos menores que n que son coprimos con n.
+
+coprimos :: Int -> [Int]
+coprimos n = [x | x <- [1..n-1], sonCoprimos x n]
