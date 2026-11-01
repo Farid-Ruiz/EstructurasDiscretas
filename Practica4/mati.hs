@@ -1,4 +1,4 @@
-module mati where
+module Mati where
 import Auxiliar
 
 -- |mayorIgual: Compara dos matrioskas y devuelve True si la primera es mayor o igual
